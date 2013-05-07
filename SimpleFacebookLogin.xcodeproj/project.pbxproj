@@ -24,6 +24,15 @@
 		2565E34217385E230044427F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565E31A17385E220044427F /* Foundation.framework */; };
 		2565E34A17385E230044427F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2565E34817385E230044427F /* InfoPlist.strings */; };
 		2565E34D17385E230044427F /* SimpleFacebookLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2565E34C17385E230044427F /* SimpleFacebookLoginTests.m */; };
+		2565E35A173861690044427F /* BMWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2565E359173861690044427F /* BMWLoginViewController.m */; };
+		2565E35C1738617D0044427F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565E35B1738617D0044427F /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2565E35E173862B40044427F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565E35D173862B40044427F /* FacebookSDK.framework */; };
+		2565E360173863090044427F /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2565E35F173863090044427F /* FacebookSDKResources.bundle */; };
+		2565E3621738631F0044427F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565E3611738631F0044427F /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2565E3641738632B0044427F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565E3631738632B0044427F /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2565E3661738633F0044427F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565E3651738633F0044427F /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2565E368173863490044427F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2565E367173863490044427F /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2565E36A1738905F0044427F /* fabric_of_squares_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 2565E3691738905F0044427F /* fabric_of_squares_gray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,16 @@
 		2565E34917385E230044427F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2565E34B17385E230044427F /* SimpleFacebookLoginTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFacebookLoginTests.h; sourceTree = "<group>"; };
 		2565E34C17385E230044427F /* SimpleFacebookLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFacebookLoginTests.m; sourceTree = "<group>"; };
+		2565E358173861680044427F /* BMWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWLoginViewController.h; sourceTree = "<group>"; };
+		2565E359173861690044427F /* BMWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWLoginViewController.m; sourceTree = "<group>"; };
+		2565E35B1738617D0044427F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2565E35D173862B40044427F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		2565E35F173863090044427F /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		2565E3611738631F0044427F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2565E3631738632B0044427F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		2565E3651738633F0044427F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2565E367173863490044427F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2565E3691738905F0044427F /* fabric_of_squares_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fabric_of_squares_gray.png; path = ../../FinalProject/Revoco/Revoco/fabric_of_squares_gray.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +86,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2565E368173863490044427F /* Security.framework in Frameworks */,
+				2565E3661738633F0044427F /* libsqlite3.dylib in Frameworks */,
+				2565E3641738632B0044427F /* AdSupport.framework in Frameworks */,
+				2565E3621738631F0044427F /* Accounts.framework in Frameworks */,
+				2565E35C1738617D0044427F /* Social.framework in Frameworks */,
 				2565E31917385E220044427F /* UIKit.framework in Frameworks */,
 				2565E31B17385E220044427F /* Foundation.framework in Frameworks */,
 				2565E31D17385E220044427F /* CoreGraphics.framework in Frameworks */,
+				2565E35E173862B40044427F /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +133,13 @@
 		2565E31717385E220044427F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2565E367173863490044427F /* Security.framework */,
+				2565E3651738633F0044427F /* libsqlite3.dylib */,
+				2565E3631738632B0044427F /* AdSupport.framework */,
+				2565E3611738631F0044427F /* Accounts.framework */,
+				2565E35B1738617D0044427F /* Social.framework */,
+				2565E35F173863090044427F /* FacebookSDKResources.bundle */,
+				2565E35D173862B40044427F /* FacebookSDK.framework */,
 				2565E31817385E220044427F /* UIKit.framework */,
 				2565E31A17385E220044427F /* Foundation.framework */,
 				2565E31C17385E220044427F /* CoreGraphics.framework */,
@@ -119,12 +151,15 @@
 		2565E31E17385E220044427F /* SimpleFacebookLogin */ = {
 			isa = PBXGroup;
 			children = (
+				2565E3691738905F0044427F /* fabric_of_squares_gray.png */,
 				2565E32717385E220044427F /* BMWAppDelegate.h */,
 				2565E32817385E220044427F /* BMWAppDelegate.m */,
 				2565E33017385E230044427F /* MainStoryboard_iPhone.storyboard */,
 				2565E33317385E230044427F /* MainStoryboard_iPad.storyboard */,
 				2565E33617385E230044427F /* BMWViewController.h */,
 				2565E33717385E230044427F /* BMWViewController.m */,
+				2565E358173861680044427F /* BMWLoginViewController.h */,
+				2565E359173861690044427F /* BMWLoginViewController.m */,
 				2565E31F17385E220044427F /* Supporting Files */,
 			);
 			path = SimpleFacebookLogin;
@@ -241,6 +276,8 @@
 				2565E32F17385E230044427F /* Default-568h@2x.png in Resources */,
 				2565E33217385E230044427F /* MainStoryboard_iPhone.storyboard in Resources */,
 				2565E33517385E230044427F /* MainStoryboard_iPad.storyboard in Resources */,
+				2565E360173863090044427F /* FacebookSDKResources.bundle in Resources */,
+				2565E36A1738905F0044427F /* fabric_of_squares_gray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +315,7 @@
 				2565E32517385E220044427F /* main.m in Sources */,
 				2565E32917385E220044427F /* BMWAppDelegate.m in Sources */,
 				2565E33817385E230044427F /* BMWViewController.m in Sources */,
+				2565E35A173861690044427F /* BMWLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +434,10 @@
 		2565E35117385E230044427F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleFacebookLogin/SimpleFacebookLogin-Prefix.pch";
 				INFOPLIST_FILE = "SimpleFacebookLogin/SimpleFacebookLogin-Info.plist";
@@ -407,6 +449,10 @@
 		2565E35217385E230044427F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleFacebookLogin/SimpleFacebookLogin-Prefix.pch";
 				INFOPLIST_FILE = "SimpleFacebookLogin/SimpleFacebookLogin-Info.plist";
